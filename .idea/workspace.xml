@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="hil">
-      <change afterPath="$PROJECT_DIR$/src/Time_space_complexity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Halloumni_Boxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Halloumni_Boxes.java" afterDir="false" />
-    </list>
+    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="hil" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760285313959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hil">
+      <option name="closed" value="true" />
+      <created>1760286701548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760286701548</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
