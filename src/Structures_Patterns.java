@@ -10,6 +10,10 @@ public class Structures_Patterns {
         Non linear data structures:(Dynamic data Structure)
         graph
         tree(subset of graph)
+
+        Hash Based:
+        HashMap
+        Hashset
         **/
     }
 }
