@@ -27,8 +27,20 @@ public class Structures_Patterns {
     traversal inefficient
 
     **/
-    public static void main(String[] args) {
+    public static void pattern1(int n){
+        for(int row=1;row<n;row++){
+            for(int clm=1;clm<=row;clm++){
+                System.out.print(clm+" ");
+            }
+            System.out.println();
+        }
+    }
 
+
+
+    public static void main(String[] args) {
+        pattern1(5);
+        System.out.println();
 
     }
 }
