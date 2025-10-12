@@ -56,7 +56,7 @@ public class Structures_Patterns {
         for(int row=n; row>=1; row--){
             for(int star=1;star<=row*2-1;star++){
                 System.out.print("*");
-            }//after pushing it in it
+            }
             for(int space=n-row;space>=0;space--){
                 System.out.print(" ");
             }
@@ -64,6 +64,11 @@ public class Structures_Patterns {
         }
     }
 
+    public static void pattern4(int n){
+        for(int row = 1;row<=n*2-1;row++){
+
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -71,7 +76,9 @@ public class Structures_Patterns {
         //System.out.println();
         //pattern2(5);
        // System.out.println();
-        pattern3(5);
+        //pattern3(5);
+        //System.out.println();
+        pattern4(5);
 
     }
 }
