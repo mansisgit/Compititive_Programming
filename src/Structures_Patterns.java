@@ -37,15 +37,33 @@ public class Structures_Patterns {
     }
 
     public static void pattern2(int n){
-        for(int rows=1;rows<=5;rows++){
-            for(int clm=1;clm)
+
+        for(int row=1 ;row<=n;row++){
+
+            for(int space=1;space<=n-row;space++){
+                System.out.print(" ");
+            }
+
+            for(int star =1;star<=row*2-1;star++){
+                System.out.print("*");
+            }
+
+            System.out.println();
         }
     }
 
+    public static void pattern3(int n){
+
+    }
+
+
 
     public static void main(String[] args) {
-        pattern1(5);
+       // pattern1(5);
         System.out.println();
+        pattern2(5);
+        System.out.println();
+        pattern3(5);
 
     }
 }
