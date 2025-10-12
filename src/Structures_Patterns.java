@@ -53,16 +53,24 @@ public class Structures_Patterns {
     }
 
     public static void pattern3(int n){
-
+        for(int row=n; row>=1; row--){
+            for(int star=1;star<=row*2-1;star++){
+                System.out.print("*");
+            }//after pushing it in it
+            for(int space=n-row;space>=0;space--){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
     }
 
 
 
     public static void main(String[] args) {
        // pattern1(5);
-        System.out.println();
-        pattern2(5);
-        System.out.println();
+        //System.out.println();
+        //pattern2(5);
+       // System.out.println();
         pattern3(5);
 
     }
