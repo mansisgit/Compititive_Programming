@@ -36,6 +36,11 @@ public class Structures_Patterns {
         }
     }
 
+    public static void pattern2(int n){
+        for(int rows=1;rows<=5;rows++){
+            for(int clm=1;clm)
+        }
+    }
 
 
     public static void main(String[] args) {
