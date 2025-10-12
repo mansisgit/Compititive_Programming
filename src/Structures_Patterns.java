@@ -13,12 +13,19 @@ public class Structures_Patterns {
        Hash Based:
        HashMap
        Hashset
+
        **/
 
     /*
+
     ARRAY
     fixed data structure
     index position starting form 0
+    cache friendly
+    random access O(1)
+    ease of sorting
+    traversal inefficient
+
     **/
     public static void main(String[] args) {
 
