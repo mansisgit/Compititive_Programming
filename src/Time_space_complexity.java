@@ -18,6 +18,9 @@ public class Time_space_complexity {
         return -1;
     }//---->O(logn)
 
+    //merge sort nXlogn = nlogn
+    //fibo--->fibo(n-1)+fibo(n-2) ---->2^n;
+
     public static void main(String[] args) {
         System.out.println(getFirstEle(new int[] {1,2,3}));
     }
