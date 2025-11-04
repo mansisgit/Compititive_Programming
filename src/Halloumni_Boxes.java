@@ -7,18 +7,29 @@ public class Halloumni_Boxes {
         while(tests-->0){
             int n = sc.nextInt();
             int k = sc.nextInt();
+            boolean unsortedfound = false;
 
             int[] arr = new int[n];
             for(int i =0;i<n;i++){
                 arr[i] = sc.nextInt();
                 if(i>0){
                     if(arr[i-1]>arr[i]){
+                        unsortedfound = true;
+                        if(k==1) {
+                            System.out.println("NO");
 
+                        }
+                        else {
+                            System.out.println("YES");
+
+                        }
                     }
                 }
             }
-            if(k==1) System.out.println("NO");
-            else System.out.println("YES");
+            if(unsortedfound==false){
+                System.out.println("YES");
+            }
+
         }
 
     }
