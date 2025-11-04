@@ -11,9 +11,14 @@ public class Halloumni_Boxes {
             int[] arr = new int[n];
             for(int i =0;i<n;i++){
                 arr[i] = sc.nextInt();
-            }
+                if(i>0){
+                    if(arr[i-1]>arr[i]){
 
-            
+                    }
+                }
+            }
+            if(k==1) System.out.println("NO");
+            else System.out.println("YES");
         }
 
     }
