@@ -12,21 +12,12 @@ public class Halloumni_Boxes {
             int[] arr = new int[n];
             for(int i =0;i<n;i++){
                 arr[i] = sc.nextInt();
-                if(i>0){
-                    if(arr[i-1]>arr[i]){
-                        unsortedfound = true;
-                        if(k==1) {
-                            System.out.println("NO");
-
-                        }
-                        else {
-                            System.out.println("YES");
-
-                        }
-                    }
-                }
+                if(i>0 && arr[i-1]>arr[i]) unsortedfound = true;
             }
-            if(unsortedfound==false){
+            if(unsortedfound){
+                if(k==1) System.out.println("NO");
+                else System.out.println("YES");
+            } else {
                 System.out.println("YES");
             }
 
