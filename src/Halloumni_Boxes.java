@@ -14,6 +14,7 @@ public class Halloumni_Boxes {
                 arr[i] = sc.nextInt();
                 if(i>0 && arr[i-1]>arr[i]) unsortedfound = true;
             }
+            //input is taken
             if(unsortedfound){
                 if(k==1) System.out.println("NO");
                 else System.out.println("YES");
