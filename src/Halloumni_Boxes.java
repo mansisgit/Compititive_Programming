@@ -7,7 +7,7 @@ public class Halloumni_Boxes {
         while(tests-->0){
             int n = sc.nextInt();
             int k = sc.nextInt();
-            boolean unsortedfound = false;
+            boolean unsortedfound = false;//flag
 
             int[] arr = new int[n];
             for(int i =0;i<n;i++){
