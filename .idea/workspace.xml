@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="hil">
+    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cover_in_Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cover_in_Water.java" afterDir="false" />
     </list>
@@ -336,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762429010962</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="carxy">
+      <option name="closed" value="true" />
+      <created>1762430332522</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1762430332522</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +361,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
     <MESSAGE value="hil" />
-    <option name="LAST_COMMIT_MESSAGE" value="hil" />
+    <MESSAGE value="carxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="carxy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

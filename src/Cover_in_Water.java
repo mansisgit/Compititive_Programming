@@ -9,13 +9,15 @@ public class Cover_in_Water {
             int cells = sc.nextInt();
             String s = sc.next();
             int count=0;
-            if(s.charAt(0) == '.') count=1;
-            else count =0;
 
-            for(int i=2;i<cells;i++){
-                if(s.charAt(i-1) == s.charAt(i) && s.charAt(i) =='.'){
-                    count++;
-                    i++;
+            for(int i=0;i<cells;i++){
+                if(s.charAt(i)=='.') {
+                    if ( i+2<cells && s.charAt(i) == s.charAt(i+1) && s.charAt(i) == s.charAt(i + 2)) {
+                        count = 2;
+                        break;
+                    } else {
+                        count += 1;
+                    }
                 }
             }
             System.out.println(count);
