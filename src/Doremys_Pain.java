@@ -23,12 +23,12 @@ public class Doremys_Pain {
             }
             if(frequency.keySet().size()>=3){
                 System.out.println("No");
-                break;
+                continue;
             }
 
             if(frequency.keySet().size()==1){
                 System.out.println("Yes");
-                break;
+                continue;
             }
 
             ArrayList <Long> values = new ArrayList<>(frequency.values());
