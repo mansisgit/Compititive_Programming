@@ -14,9 +14,7 @@ public class Doremys_Pain {
 
             }//input taken
 
-            for(int i=0;i<n-2;i++){
 
-            }
 
         }
     }
