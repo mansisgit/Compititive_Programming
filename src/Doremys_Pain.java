@@ -21,7 +21,7 @@ public class Doremys_Pain {
                   frequency.put((long) ele,frequency.getOrDefault((long) ele,0L)+1);
 
             }
-            if(frequency.keySet().size()>2){
+            if(frequency.keySet().size()>=3){
                 System.out.println("No");
                 break;
             }
