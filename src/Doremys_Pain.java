@@ -13,15 +13,11 @@ public class Doremys_Pain {
             for(int i=0;i<n;i++){
                 arr[i] = sc.nextInt();
             }//input taken
-            boolean correct = false;
-            for(int i=0;i+2<n;i++){
-                if(arr[i] == arr[i+2]){
-                    correct = true;
-                }else {
-                    correct = false;
-                }
+
+            for(int i=0;i<n-2;i++){
+
             }
-            System.out.println(correct);//answer
+
         }
     }
 }
