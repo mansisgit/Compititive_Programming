@@ -21,7 +21,7 @@ public class Doremys_Pain {
                     correct = false;
                 }
             }
-            System.out.println(correct);
+            System.out.println(correct);//answer
         }
     }
 }
