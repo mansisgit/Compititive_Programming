@@ -4,7 +4,14 @@ import java.util.Scanner;
 public class DontTryToCount {
 
     public static boolean cheks(String updatable, String tobechecked){
-        return updatable.contains(tobechecked);
+        //return updatable.contains(tobechecked);
+        if(updatable.length()<tobechecked.length()) return false;
+        for(int i=0;i<updatable.length()-tobechecked.length()+1;i++){
+            if(updatable.substring(i,tobechecked.length()+1).equals(tobechecked)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public static void main(String[] args) {
