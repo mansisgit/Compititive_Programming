@@ -14,13 +14,16 @@ public class Doremys_Pain {
             for(int i=0;i<n;i++){//n time complexity
                 arr[i] = sc.nextInt();
 
-            }//input taken
+            }//space complexity o(n)
+            //input taken
 
-            HashMap<Long,Long> frequency = new HashMap<>();//o(nlogn)
+            HashMap<Long,Long> frequency = new HashMap<>();//o(1) average time complexity for insertion and retrieval
+
             for(int ele: arr){
                   frequency.put((long) ele,frequency.getOrDefault((long) ele,0L)+1);
 
             }
+            //space complexity o(n)
             if(frequency.keySet().size()>=3){
                 System.out.println("No");
                 continue;
@@ -32,14 +35,15 @@ public class Doremys_Pain {
             }
 
             ArrayList <Long> values = new ArrayList<>(frequency.values());
+            //space complexity o(1) as max size is 2
             long val1 = values.get(0);
             long val2 = values.get(1);
 
             if(Math.abs(val1-val2)<=1) System.out.println("Yes");
             else System.out.println("No");
 
-//time complexity jo sabse jyada wohi hoti hai
-            //space complexity add up hoti hai --->
+
         }
     }
 }
+//overall program time complexity o(n) and space complexity o(n)
