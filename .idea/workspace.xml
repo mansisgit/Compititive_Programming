@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
-      <change afterPath="$PROJECT_DIR$/src/DontTryToCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +40,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Doremys_Pain">
+  <component name="RunManager" selected="Application.DontTryToCount">
     <configuration name="Cover_in_Water" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cover_in_Water" />
+      <module name="Competitive_Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DontTryToCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DontTryToCount" />
       <module name="Competitive_Programming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,20 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LIneTrip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LIneTrip" />
-      <module name="Competitive_Programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DontTryToCount" />
         <item itemvalue="Application.Doremys_Pain" />
         <item itemvalue="Application.Jagged_Swaps" />
         <item itemvalue="Application.Game_with_Integers" />
         <item itemvalue="Application.Cover_in_Water" />
-        <item itemvalue="Application.LIneTrip" />
       </list>
     </recent_temporary>
   </component>
@@ -97,30 +94,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00001" summary="hi">
-      <option name="closed" value="true" />
-      <created>1758739005580</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1758739005580</updated>
-    </task>
-    <task id="LOCAL-00002" summary="hi">
-      <option name="closed" value="true" />
-      <created>1758739085376</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1758739085376</updated>
-    </task>
-    <task id="LOCAL-00003" summary="hi">
-      <option name="closed" value="true" />
-      <created>1758739240307</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1758739240307</updated>
     </task>
     <task id="LOCAL-00004" summary="hi">
       <option name="closed" value="true" />
@@ -490,7 +463,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762969388018</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1762970400512</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1762970400512</updated>
+    </task>
+    <task id="LOCAL-00051" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1762971518247</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1762971518249</updated>
+    </task>
+    <task id="LOCAL-00052" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1762971708709</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1762971708709</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
