@@ -11,12 +11,12 @@ public class Doremys_Pain {
             int n = sc.nextInt();
             int[] arr = new int[n];
 
-            for(int i=0;i<n;i++){
+            for(int i=0;i<n;i++){//n time complexity
                 arr[i] = sc.nextInt();
 
             }//input taken
 
-            HashMap<Long,Long> frequency = new HashMap<>();
+            HashMap<Long,Long> frequency = new HashMap<>();//o(nlogn)
             for(int ele: arr){
                   frequency.put((long) ele,frequency.getOrDefault((long) ele,0L)+1);
 
@@ -38,7 +38,8 @@ public class Doremys_Pain {
             if(Math.abs(val1-val2)<=1) System.out.println("Yes");
             else System.out.println("No");
 
-
+//time complexity jo sabse jyada wohi hoti hai
+            //space complexity add up hoti hai --->
         }
     }
 }
