@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 
 public class DontTryToCount {
+
+    public static boolean cheks(String updatable, String tobechecked){
+        return updatable.contains(tobechecked);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int tests = sc.nextInt();
@@ -19,8 +24,22 @@ public class DontTryToCount {
             String x4 = x3 + x3;//4 operations
             String x5 = x4 + x4;//5 operations
 
-            int operations = -1;
+            int operations=-1;
 
+            if(cheks(updatable,tobechecked)){
+                operations = 0;
+            } else if(cheks(x1,tobechecked)){
+                operations = 1;
+            } else if(cheks(x2,tobechecked)){
+                operations = 2;
+            } else if(cheks(x3,tobechecked)){
+                operations = 3;
+            } else if(cheks(x4,tobechecked)){
+                operations = 4;
+            } else if(cheks(x5,tobechecked)){
+                operations = 5;
+            }
+            System.out.println(operations);
 
         }
     }
