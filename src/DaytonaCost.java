@@ -11,14 +11,10 @@ public class DaytonaCost {
             int[] arr = new int[n];
             for (int i = 0; i < n; i++) {
                 arr[i] = sc.nextInt();
-                if (arr[i] == k) {
-                    System.out.println("YES");
-                } else {
-                    if(i==n-1)
-                    System.out.println("NO");
-                }
-            }//input taken
 
+                if(arr[i]==k) System.out.println("YES");
+            }//input taken
+            System.out.println("NO");
 
         }
     }
