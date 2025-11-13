@@ -7,7 +7,7 @@ public class DontTryToCount {
         //return updatable.contains(tobechecked);
         if(updatable.length()<tobechecked.length()) return false;
         for(int i=0;i<updatable.length()-tobechecked.length()+1;i++){
-            if(updatable.substring(i,tobechecked.length()+1).equals(tobechecked)){
+            if(updatable.substring(i,tobechecked.length()).equals(tobechecked)){
                 return true;
             }
         }
@@ -15,6 +15,7 @@ public class DontTryToCount {
     }
 
     public static void main(String[] args) {
+        //
         Scanner sc = new Scanner(System.in);
         int tests = sc.nextInt();
 
