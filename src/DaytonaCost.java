@@ -6,7 +6,10 @@ public class DaytonaCost {
         int tests = sc.nextInt();
 
         while (tests-->0){
-
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i=0;i<n;i++){
+            arr[i] = sc.nextInt();
         }
     }
 }
