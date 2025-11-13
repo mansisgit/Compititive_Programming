@@ -6,7 +6,7 @@ public class DaytonaCost {
         int tests = sc.nextInt();
 
         while (tests-->0){
-
+//dskljgoairg
         }
     }
 }
