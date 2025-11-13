@@ -6,7 +6,10 @@ public class DontTryToCount {
     public static boolean cheks(String updatable, String tobechecked){
         //return updatable.contains(tobechecked);
         if(updatable.length()<tobechecked.length()) return false;
+        //agar updatable chota hai to false kyunki ussko update karne ki jarurat hai
         for(int i=0;i<updatable.length()-tobechecked.length()+1;i++){
+            //window ka size tobechecked ka size hai
+            //par difference +1 liya hai kyunki window baki ke bache huye lengthy pe searching nh kr skta
             if(updatable.substring(i,tobechecked.length()).equals(tobechecked)){
                 return true;
             }
