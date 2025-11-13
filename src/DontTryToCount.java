@@ -22,6 +22,8 @@ public class DontTryToCount {
                 return true;
             }
         }
+
+
         return false;
     }
 
