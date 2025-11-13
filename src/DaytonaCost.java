@@ -9,12 +9,18 @@ public class DaytonaCost {
             int n = sc.nextInt();
             int k = sc.nextInt();
             int[] arr = new int[n];
+            boolean flag = false;
             for (int i = 0; i < n; i++) {
                 arr[i] = sc.nextInt();
 
-                if(arr[i]==k) System.out.println("YES");
+                if(arr[i]==k) flag=true;
             }//input taken
+        if(flag){
+            System.out.println("YES");
+        } else {
             System.out.println("NO");
+        }
+
 
         }
     }
