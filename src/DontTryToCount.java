@@ -10,7 +10,15 @@ public class DontTryToCount {
         for(int i=0;i<updatable.length()-tobechecked.length()+1;i++){
             //window ka size tobechecked ka size hai
             //par difference +1 liya hai kyunki window baki ke bache huye lengthy pe searching nh kr skta
+            //  updatable = abcccffefff --> length = 11 form index 0 to 10
+            // tobechecked = cff  --> length = 3 form index 0 to 2
+            //diff = 11-3 = 8 toh 9 aur 10 index pe window start nh ho skta so i will be till 8 only
+            //i is starting point of the window
             if(updatable.substring(i,tobechecked.length()).equals(tobechecked)){
+                //substring function ka second parameter exclusive hota hai --> (i,3) means i to 2
+                //toh i se 2 tak ka substring nikal ke compare karenge
+                // updatable = abcccffefff --> substring(i,3)--> abc when i=0
+                //when i=1 ,substring(i,3)--> bcc -->start at i=1 then count 3 characters form there-->b(1)c)(2)c(3)-->bcc
                 return true;
             }
         }
