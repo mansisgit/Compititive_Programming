@@ -16,10 +16,13 @@ public class Target_Practice {
             {1,2,2,2,2,2,2,2,2,1},
             {1,1,1,1,1,1,1,1,1,1}
             };
+            int count =0;
+
+            String guess = sc.next();
 
             for(int i=0;i<10;i++){
             for(int j=0;j<10;j++){
-                if(arr[i][j]=='X')
+                if(guess.toCharArray()[j]=='X') count+=arr[i][j];
             }
 
             }
