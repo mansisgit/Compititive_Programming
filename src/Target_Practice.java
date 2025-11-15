@@ -8,6 +8,8 @@ public class Target_Practice {
             char[][] arr = new char[10][10];
 
             for(int i=0;i<10;i++){
+                {1,1,1,1,1,1,1,1,1,1};
+
 
             }
             int score =0;
