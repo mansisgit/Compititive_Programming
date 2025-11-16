@@ -9,13 +9,14 @@ public class AmbitiousKid {
 
         for(int i=0;i<length;i++){
             arr[i] = sc.nextInt();
-            if(arr[i]==0)
         }
         //input taken
 
-        if(arr[i]<0) arr[i]*=(-1);
-        min = Math.min(arr[i],min);
-        System.out.println(min*(-1));
+       int min = arr[0];
+        for(int ele : arr){
+            if(ele<0) ele*=(-1);
+            min = Math.min(ele,min);
+        }
 
     }
 }
