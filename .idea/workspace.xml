@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AmbitiousKid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmbitiousKid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,22 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00032" summary="hil">
-      <option name="closed" value="true" />
-      <created>1762429010962</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1762429010962</updated>
-    </task>
-    <task id="LOCAL-00033" summary="carxy">
-      <option name="closed" value="true" />
-      <created>1762430332522</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1762430332522</updated>
     </task>
     <task id="LOCAL-00034" summary="carxy">
       <option name="closed" value="true" />
@@ -489,7 +474,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763279051687</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1763279386151</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1763279386151</updated>
+    </task>
+    <task id="LOCAL-00082" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1763279574717</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1763279574719</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
