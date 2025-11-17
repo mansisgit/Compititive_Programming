@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
-      <change afterPath="$PROJECT_DIR$/src/SequenceGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,30 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00036" summary="carxy">
-      <option name="closed" value="true" />
-      <created>1762522103277</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1762522103277</updated>
-    </task>
-    <task id="LOCAL-00037" summary="carxy">
-      <option name="closed" value="true" />
-      <created>1762524115373</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1762524115373</updated>
-    </task>
-    <task id="LOCAL-00038" summary="carxy">
-      <option name="closed" value="true" />
-      <created>1762621203035</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1762621203035</updated>
     </task>
     <task id="LOCAL-00039" summary="carxy">
       <option name="closed" value="true" />
@@ -490,7 +465,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763372097642</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1763372137153</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1763372137153</updated>
+    </task>
+    <task id="LOCAL-00086" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1763372241068</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1763372241068</updated>
+    </task>
+    <task id="LOCAL-00087" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1763372270318</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1763372270318</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
