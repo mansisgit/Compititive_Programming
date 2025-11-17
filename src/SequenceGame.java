@@ -10,6 +10,7 @@ public class SequenceGame {
             for(int i=0;i<length;i++){
                 a[i] = sc.nextInt();
             }
+
             //input taken
 
 
