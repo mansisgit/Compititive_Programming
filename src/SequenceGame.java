@@ -28,8 +28,10 @@ public class SequenceGame {
 
             }
             System.out.println(a.size());
-            System.out.println(Arrays.toString(a.toArray()));
-
+            for(int ele : a){
+                System.out.print(ele+" ");
+            } //output should exactly look like the output --->Strictly
+            System.out.println();
         }
     }
 }
