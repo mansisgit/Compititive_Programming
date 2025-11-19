@@ -27,6 +27,7 @@ public class SequenceGame {
                }
 
             }
+            System.out.println(a.size());
             System.out.println(Arrays.toString(a.toArray()));
 
         }
