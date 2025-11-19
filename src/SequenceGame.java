@@ -19,7 +19,7 @@ public class SequenceGame {
 
             for (int i = 1; i < length; i++) {
 
-               if(b[i-1]>b[i]){
+               if(b[i-1]>=b[i]){
                    a.add(b[i]);
                }
                 a.add(b[i]);
