@@ -19,10 +19,12 @@ public class SequenceGame {
 
             for (int i = 1; i < length; i++) {
 
-               if(b[i-1]>=b[i]){
+               if(b[i-1]<=b[i]){
+                   a.add(b[i]);//agar bada yah barabar hai toh ek baar add karo
+               }else {
+                   a.add(b[i]);//agae chota hai toh do bar not even equal
                    a.add(b[i]);
                }
-                a.add(b[i]);
 
             }
             System.out.println(Arrays.toString(a.toArray()));
