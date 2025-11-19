@@ -7,20 +7,25 @@ public class SequenceGame {
         int tests = sc.nextInt();
         while(tests-->0){
             int length = sc.nextInt();
-            int [] a = new int[length];
+            int [] b = new int[length];
             for(int i=0;i<length;i++){
-                a[i] = sc.nextInt();
+                b[i] = sc.nextInt();
             }
 
             //input taken
-            ArrayList<Integer> b = new ArrayList<>();
-            b.add(a[0]);
+            ArrayList<Integer> a = new ArrayList<>();
+            a.add(b[0]);//first number is added
 
-            for(int i=1;i<a.length;i++){
-                if(a[i-1]<=a[i]) b.add(a[i]);
+            for(int i=1;i<length;i++){
+                if(b[i-1]>b[i]){
+                    a.add(b[i]);
+                }
             }
 
-            System.out.println(b);
+
+
+
+
         }
     }
 }
