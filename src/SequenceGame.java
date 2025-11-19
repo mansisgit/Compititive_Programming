@@ -17,12 +17,15 @@ public class SequenceGame {
             a.add(b[0]);//first number is added
 
             for(int i=1;i<length;i++){
-                if(b[i-1]>b[i]){
+                if(b[i-1]<b[i]){
+                    a.add(b[i]);
+                } else {
+                    a.add(b[i]);
                     a.add(b[i]);
                 }
             }
 
-
+            System.out.println(a.toArray());
 
 
 
