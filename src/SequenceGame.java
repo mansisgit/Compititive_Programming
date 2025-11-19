@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SequenceGame {
@@ -12,8 +13,14 @@ public class SequenceGame {
             }
 
             //input taken
+            ArrayList<Integer> b = new ArrayList<>();
+            b.add(a[0]);
 
+            for(int i=1;i<a.length;i++){
+                if(a[i-1]<=a[i]) b.add(a[i]);
+            }
 
+            System.out.println(b);
         }
     }
 }
