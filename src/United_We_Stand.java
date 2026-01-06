@@ -10,14 +10,18 @@ public class United_We_Stand {
             int[] arr_a = new int[length];
             for(int i =0;i<length;i++){
                 arr_a[i] = sc.nextInt();
-            }//input taken
+            }
+            //input taken
 
             ArrayList<Integer> arr_b = new ArrayList<>();
             ArrayList<Integer> arr_c = new ArrayList<>();
-            arr_b.add(arr_a[0]);//first element added
+            arr_b.add(arr_a[0]);
+            //first element added
 
             for(int i=1;i<length;i++){
-                if(arr_a[i-1] % arr_a[i] || arr_a[i] % arr_a[i-1])
+//                if(arr_a[i-1] % arr_a[i] || arr_a[i] % arr_a[i-1]){
+//                fhthrrh dfgn ftyhjj
+//                }
             }
         }
     }
