@@ -43,8 +43,11 @@ public class Program {
         //to check if the sign of the number are same or different (+/-)
         int x=5;//0000 0101
         int y=-3;//1111 1101
-        if((x^y)<0) System.out.println("Different signs");
-        else System.out.println("Same signs");
+        if((x ^ y)<0){
+            System.out.println("Different signs");
+        } else {
+            System.out.println("Same signs");
+        }
 
         //write a code to clear the nth bit of number
         int d = 15;//1111
