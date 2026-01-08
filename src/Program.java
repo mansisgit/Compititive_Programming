@@ -62,10 +62,22 @@ public class Program {
         int[] arr = {1,1,2,2,3,3,4,5,5,6,6};
         int unique = 0;
         for(int i : arr){
-            unique = unique ^ i;
+            unique = unique ^ i;//*^*-->0---->*^0-->*
         }
         System.out.println(unique);
 
 
+        //write a code to find a missing number in arr using bitwise
+        int[] array = {1,2,3,4,6,7,8,9,10};//5 is missing
+        int count = array.length+1;
+        int xor =0;
+        for(int ele : array){
+            xor = ele^xor;
+        }
+        int xor2=0;
+        for(int i=1;i<count+1;i++){
+            xor2 = xor2 ^ i;
+        }
+        System.out.println(xor ^ xor2);
     }
 }
