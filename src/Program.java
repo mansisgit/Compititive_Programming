@@ -74,10 +74,12 @@ public class Program {
         for(int ele : array){
             xor = ele^xor;
         }
+        System.out.println(xor);
         int xor2=0;
         for(int i=1;i<count+1;i++){
             xor2 = xor2 ^ i;
         }
+        System.out.println(xor2);
         System.out.println(xor ^ xor2);
     }
 }
