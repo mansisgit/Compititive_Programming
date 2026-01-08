@@ -35,13 +35,11 @@ public class Program {
         }
         System.out.println("MSB is at position: "+power1);
 
-        //------Bit Manipulation
+        //------Bit Manipulation-----
         //write a code to toggle the nth bit of a number
         int c = 5; //101
         int nthbit = 1;
-
-
-
+        System.out.println( c ^ (1<<nthbit));
 
     }
 }

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
-      <change afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,30 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00051" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1762971518247</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1762971518249</updated>
-    </task>
-    <task id="LOCAL-00052" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1762971708709</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1762971708709</updated>
-    </task>
-    <task id="LOCAL-00053" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1762972276848</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1762972276848</updated>
     </task>
     <task id="LOCAL-00054" summary="carxysdf">
       <option name="closed" value="true" />
@@ -490,7 +466,31 @@
       <option name="project" value="LOCAL" />
       <updated>1767699111028</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1767854679602</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1767854679602</updated>
+    </task>
+    <task id="LOCAL-00101" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1767854854303</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1767854854303</updated>
+    </task>
+    <task id="LOCAL-00102" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1767855138911</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1767855138911</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
