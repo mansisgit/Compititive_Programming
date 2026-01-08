@@ -40,7 +40,7 @@ public class Program {
         int nthbit = 1;
         System.out.println( c ^ (1<<nthbit));
 
-        //to check if the sign of the number are same or different (+/-)
+        //to check if the sign of the number are same or different (+/-) ??
         int x=5;//0000 0101
         int y=-3;//1111 1101
         if((x ^ y)<0){
@@ -56,5 +56,16 @@ public class Program {
 
         //write a code to change the nth bit to 1
         System.out.println(d | (1<<nbit));
+
+        //find single number using bitwise operator
+        System.out.println("unique number");
+        int[] arr = {1,1,2,2,3,3,4,5,5,6,6};
+        int unique = 0;
+        for(int i : arr){
+            unique = unique ^ i;
+        }
+        System.out.println(unique);
+
+
     }
 }
