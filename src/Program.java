@@ -35,17 +35,22 @@ public class Program {
         }
         System.out.println("MSB is at position: "+power1);
 
-        //------------------------------------------------Bit Manipulation---------------------------------------
         //write a code to toggle the nth bit of a number
         int c = 5; //101
         int nthbit = 1;
         System.out.println( c ^ (1<<nthbit));
 
         //to check if the sign of the number are same or different (+/-)
-        int x=5;//101
-        int y=-3;//110 ---> 2's compliment
+        int x=5;//0000 0101
+        int y=-3;//1111 1101
         if((x^y)<0) System.out.println("Different signs");
         else System.out.println("Same signs");
+
+        //write a code to clear the nth bit of number
+        int d = 15;//1111
+        int nbit = 2;
+        System.out.println(d & ~(1<<nbit));
+
 
     }
 }
