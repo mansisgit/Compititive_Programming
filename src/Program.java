@@ -54,6 +54,7 @@ public class Program {
         int nbit = 2;
         System.out.println(d & ~(1<<nbit));
 
-
+        //write a code to change the nth bit to 1
+        System.out.println(d | (1<<nbit));
     }
 }
