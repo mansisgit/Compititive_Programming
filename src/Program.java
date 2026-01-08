@@ -42,9 +42,10 @@ public class Program {
         System.out.println( c ^ (1<<nthbit));
 
         //to check if the sign of the number are same or different (+/-)
-        int x=5;
-        int y=-3;
-        if(x<0 && y>0) System.out.println("different");
+        int x=5;//101
+        int y=-3;//110 ---> 2's compliment
+        if((x^y)<0) System.out.println("Different signs");
+        else System.out.println("Same signs");
 
     }
 }
