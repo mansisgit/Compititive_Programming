@@ -35,5 +35,8 @@ public class Program {
         }
         System.out.println("MSB is at position: "+power1);
 
+        //------Bit Manipulation
+        //write a code
+
     }
 }
