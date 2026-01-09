@@ -22,16 +22,27 @@ public class Control_Statements {
             System.out.print(ele + " ,");
             count++;
         }
+        System.out.println();
 
         //write a code to find the digits of number
         int num=12345;
         int element = num;
         int digit =0;
+        int sum=0;
         while(element>0){
             element=element/10;
             digit++;
         }
         System.out.println(digit);
 
+        //write a code for armstrong number
+        while(element>0){
+
+            int singledigi = element%10;
+            sum+=Math.pow((int)singledigi,digit);
+            element/=10;
+        }
+        if(sum==num) System.out.println("yes it is armstrong");
+        else System.out.println("NO armstrong");
     }
 }
