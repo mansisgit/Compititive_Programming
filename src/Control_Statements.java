@@ -109,10 +109,13 @@ public class Control_Statements {
         System.out.println("------------------------------");
 
         for(int i=1;i<=5;i++){
-            for(int j=5;j>=i;j--){
-                if(j<5) System.out.print(" ");
-                System.out.print((i+j)%2+" ");
+            //spaces
+            for(int k=4;k>=i;k--){
+                System.out.print(" ");
+            }
 
+            for(int j=5;j>=i;j--){
+                System.out.print((i+j)%2+" ");
             }
             System.out.println();
         }
@@ -152,6 +155,15 @@ public class Control_Statements {
             }
             System.out.println();
 
+        }
+        System.out.println("------------------------------");
+        //brazillian flag pattern
+        for(int i=1;i<=9;i++){
+            for(int j =17;j>=1;j--){
+
+
+            }
+            System.out.println();
         }
 
     }
