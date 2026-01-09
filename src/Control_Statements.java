@@ -157,9 +157,18 @@ public class Control_Statements {
 
         }
         System.out.println("------------------------------");
-        //brazillian flag pattern???
-        for(int i=1;i<=;i++){
+        //brazilian flag pattern
 
+        for(int i=1;i<=9;i++){
+            for(int j=9;j>=1;j--){
+                if(j<i) System.out.print(" ");
+                else System.out.print("*");
+
+            }
+            for(int k=1;k<=10;k++){
+                if(k<=i) System.out.print(" ");
+                else System.out.print("*");
+            }
             System.out.println();
         }
 
