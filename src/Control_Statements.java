@@ -25,7 +25,7 @@ public class Control_Statements {
         System.out.println();
 
         //write a code to find the digits of number
-        int num=12345;
+        int num=153;
         int element = num;
         int digit =0;
         int sum=0;
@@ -36,6 +36,7 @@ public class Control_Statements {
         System.out.println(digit);
 
         //write a code for armstrong number
+        element = num;
         while(element>0){
 
             int singledigi = element%10;
