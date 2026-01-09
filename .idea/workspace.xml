@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control_Statements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control_Statements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +42,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Control_Statements">
+  <component name="RunManager" selected="Application.Array">
     <configuration name="AmbitiousKid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AmbitiousKid" />
+      <module name="Competitive_Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="Competitive_Programming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,20 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Target_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Target_Practice" />
-      <module name="Competitive_Programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array" />
         <item itemvalue="Application.Control_Statements" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.SequenceGame" />
         <item itemvalue="Application.AmbitiousKid" />
-        <item itemvalue="Application.Target_Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -97,22 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00079" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1763266233369</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1763266233371</updated>
-    </task>
-    <task id="LOCAL-00080" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1763279051687</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1763279051687</updated>
     </task>
     <task id="LOCAL-00081" summary="carxysdf">
       <option name="closed" value="true" />
@@ -490,7 +473,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767952026840</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1767952569757</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1767952569757</updated>
+    </task>
+    <task id="LOCAL-00129" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1767953140675</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1767953140675</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
