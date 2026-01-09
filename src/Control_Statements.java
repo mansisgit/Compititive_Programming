@@ -45,5 +45,27 @@ public class Control_Statements {
         }
         if(sum==num) System.out.println("yes it is armstrong");
         else System.out.println("NO armstrong");
+
+        for(int i=1;--i<=10;i+=2){//flow initialize-->condition-->execution-->increament
+            //preincreament --> first increase the value then--> use it in condition
+            System.out.println(i);
+        }
+        System.out.println("------------------");
+        for(int i=1;i<=10;i++){
+            System.out.println(i++);//postincreament --> first use the value in condition then --> increase it
+        }
+        System.out.println("------------------------------");
+        //nested for loop to print a pattern
+        int elet =2;
+        for(int i=0;i<5;i++){
+            for(int j=0;j<5;j++){
+                System.out.print(elet+" ");
+                elet++;
+            }
+            System.out.println();
+            elet-=4;
+        }
+        //improved logic for above
+
     }
 }
