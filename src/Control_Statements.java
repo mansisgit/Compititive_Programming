@@ -141,7 +141,7 @@ public class Control_Statements {
         }
         System.out.println("------------------------------");
         for(int i=1;i<=5;i++){
-              //spaces
+              //spaces????
             for(int k=4;k>=i;k--){
                 System.out.print(" ");
             }
@@ -157,12 +157,9 @@ public class Control_Statements {
 
         }
         System.out.println("------------------------------");
-        //brazillian flag pattern
-        for(int i=1;i<=9;i++){
-            for(int j =17;j>=1;j--){
+        //brazillian flag pattern???
+        for(int i=1;i<=;i++){
 
-
-            }
             System.out.println();
         }
 
