@@ -165,12 +165,25 @@ public class Control_Statements {
                 else System.out.print("*");
 
             }
-            for(int k=1;k<=10;k++){
+            for(int k=2;k<=10;k++){
                 if(k<=i) System.out.print(" ");
                 else System.out.print("*");
             }
+
             System.out.println();
         }
+        for(int i=9;i>=2;i--){
+            for(int j=1;j<=9;j++){
+                if(j<i) System.out.print(" ");
+                else System.out.print("*");
 
+            }
+            for(int k=2;k<=10;k++){
+                if(k<=i) System.out.print(" ");
+                else System.out.print("*");
+            }
+
+            System.out.println();
+        }
     }
 }
