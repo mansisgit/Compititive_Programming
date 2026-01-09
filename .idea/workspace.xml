@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
-      <change afterPath="$PROJECT_DIR$/src/Control_Statements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control_Statements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control_Statements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +40,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "onboarding.tips.debug.path": "C:/Users/mansi tukaram chate/Downloads/Competitive_Programming/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.Control_Statements">
     <configuration name="AmbitiousKid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AmbitiousKid" />
       <module name="Competitive_Programming" />
@@ -52,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalsOfVictory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoalsOfVictory" />
+    <configuration name="Control_Statements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Control_Statements" />
       <module name="Competitive_Programming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Control_Statements" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.SequenceGame" />
         <item itemvalue="Application.AmbitiousKid" />
         <item itemvalue="Application.Target_Practice" />
-        <item itemvalue="Application.GoalsOfVictory" />
       </list>
     </recent_temporary>
   </component>
@@ -98,14 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00064" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1763055161775</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1763055161783</updated>
     </task>
     <task id="LOCAL-00065" summary="carxysdf">
       <option name="closed" value="true" />
@@ -491,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767870386386</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1767933718676</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1767933718676</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
