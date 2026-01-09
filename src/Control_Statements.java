@@ -87,7 +87,7 @@ public class Control_Statements {
             System.out.println();
         }
         System.out.println("------------------------------");
-        for(int i=1;i<=5;i++){
+        for(int i=1;i<=5;i++){//uisng if else without 3 loops j-i type
             //for spaces
             for(int k=4;k>=i;k--){
                 System.out.print(" ");
@@ -104,6 +104,27 @@ public class Control_Statements {
                 System.out.print("*");
             }
             System.out.println();
+        }
+
+        System.out.println("------------------------------");
+
+        for(int i=1;i<=5;i++){
+            for(int k=1;k<=i;k++){
+                System.out.print(" ");
+
+            }
+            for(int j=i;j<=5;j++){
+                System.out.print((j+i)%2);
+            }
+
+            System.out.println();
+        }
+
+        System.out.println("------------------------------");
+        for(int i=1;i<=5;i++){
+            for(int j=5;j<=i;j++){
+
+            }
         }
     }
 }
