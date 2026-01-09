@@ -110,6 +110,7 @@ public class Control_Statements {
 
         for(int i=1;i<=5;i++){
             for(int j=5;j>=i;j--){
+                if(j<5) System.out.print(" ");
                 System.out.print((i+j)%2+" ");
 
             }
@@ -125,13 +126,32 @@ public class Control_Statements {
             }
             //increasing part
             for(int j=1;j<=i;j++){
+
                 System.out.print(j);
+
             }
             //decreasing part
             for(int l=i-1;l>=1;l--){
                 System.out.print(l);
             }
             System.out.println();
+        }
+        System.out.println("------------------------------");
+        for(int i=1;i<=5;i++){
+              //spaces
+            for(int k=4;k>=i;k--){
+                System.out.print(" ");
+            }
+            //increasing part
+            for(int j=1;j<=i*2-1;j+=2){
+                System.out.print(j);
+            }
+            //decreasing part
+            for(int m=i*2-3;m>=0;m-=2){
+                System.out.print(m);
+            }
+            System.out.println();
+
         }
 
     }
