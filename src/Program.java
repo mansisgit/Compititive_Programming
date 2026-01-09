@@ -1,6 +1,6 @@
 public class Program {
     public static void main(String[] args) {
-
+//bitwise xor meaning and 135 greedy algo.
         //to check if a number is power of 2 or not using bitwise operator
         int n = 16;
         if((n & n-1) == 0) System.out.println("Power of 2");
