@@ -8,9 +8,10 @@ public class Array {
                 if(ele%i==0){
                     System.out.print(i+" ");
                 }
+                //hi
             }
             System.out.println();
         }
     }
 }
-//1552//stocks buy and sell time//remove duplicates26
+//1552//stocks buy and sell time 121//remove duplicates 26
