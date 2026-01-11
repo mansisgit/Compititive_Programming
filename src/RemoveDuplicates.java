@@ -6,6 +6,7 @@ int [] arr = {1,2,2,3,3};
         //uske bad babbi ka bhi bharna hai
 //and then saare ke saare exams ka syllabus check yaphir dates dekh lo
         // engineering wale and entc wale
-        //rrb ssc nabard gate rbi ese
+        //rrb ssc nabard gate rbi ese---->engineering
+        //mpsc tech rrb tech
     }
 }
