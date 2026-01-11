@@ -13,5 +13,6 @@ int [] arr = {1,2,2,3,3};
         int b=8;
         //aani roj baghaych konte ajet te ani notion la add karacha
 
+
     }
 }
