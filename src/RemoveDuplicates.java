@@ -9,6 +9,9 @@ int [] arr = {1,2,2,3,3};
         //rrb ssc nabard gate rbi ese---->engineering
         //mpsc tech rrb tech
         int s = 4;
-        //tech wale ayenge bharna hai aur baki aate rahenge check majhinaukari portal and also add to calender
+        //tech wale ayenge bharna hai aur baki aate rahenge check majhinaukari portal avnd also add to calender
+        int b=8;
+        //aani roj baghaych konte ajet te ani notion la add karacha
+
     }
 }
