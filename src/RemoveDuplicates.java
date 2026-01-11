@@ -8,5 +8,6 @@ int [] arr = {1,2,2,3,3};
         // engineering wale and entc wale
         //rrb ssc nabard gate rbi ese---->engineering
         //mpsc tech rrb tech
+        int s = 4;
     }
 }
