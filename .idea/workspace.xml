@@ -95,30 +95,6 @@
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
     </task>
-    <task id="LOCAL-00084" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1763372097641</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1763372097642</updated>
-    </task>
-    <task id="LOCAL-00085" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1763372137153</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1763372137153</updated>
-    </task>
-    <task id="LOCAL-00086" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1763372241068</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1763372241068</updated>
-    </task>
     <task id="LOCAL-00087" summary="carxysdf">
       <option name="closed" value="true" />
       <created>1763372270318</created>
@@ -487,7 +463,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768065409822</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1768069425539</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1768069425539</updated>
+    </task>
+    <task id="LOCAL-00134" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1768069457829</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1768069457829</updated>
+    </task>
+    <task id="LOCAL-00135" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1768069482078</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1768069482078</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
