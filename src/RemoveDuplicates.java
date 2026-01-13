@@ -3,9 +3,15 @@ public class RemoveDuplicates {
         int[] arr = {0,0,0,1,1,2,3};
 
 //first sorting the array and then returning the length of the sorted part only
-        int count =0;
-
-
+        int compare_index = 0;
+        int fast = 1;
+        for(int i=0;i<arr.length;i++){
+            if(arr[compare_index] == arr[fast]) fast++;
+            else {
+                arr[compare_index+1] = arr[fast];
+            }
+        }
+        System.out.println(arr);
 
         }
     }
