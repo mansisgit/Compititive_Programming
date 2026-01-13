@@ -8,7 +8,7 @@ public class Array {
                 if(ele%i==0){
                     System.out.print(i+" ");
                 }
-                //hi
+
             }
             System.out.println();
         }
