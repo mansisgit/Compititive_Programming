@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf" />
+    <list default="true" id="2fd45be3-ab8a-40d9-94fe-c2773a208f39" name="Changes" comment="carxysdf">
+      <change afterPath="$PROJECT_DIR$/src/Inputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveDuplicates.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RotateToRight">
+  <component name="RunManager" selected="Application.Inputs">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="Competitive_Programming" />
@@ -55,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
+    <configuration name="Inputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inputs" />
       <module name="Competitive_Programming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateToRight" />
+        <item itemvalue="Application.Inputs" />
         <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.RotateToRight" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Control_Statements" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -94,30 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758738855369</updated>
-    </task>
-    <task id="LOCAL-00104" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1767856762375</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1767856762376</updated>
-    </task>
-    <task id="LOCAL-00105" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1767857141237</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1767857141237</updated>
-    </task>
-    <task id="LOCAL-00106" summary="carxysdf">
-      <option name="closed" value="true" />
-      <created>1767862291013</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1767862291015</updated>
     </task>
     <task id="LOCAL-00107" summary="carxysdf">
       <option name="closed" value="true" />
@@ -487,7 +467,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768297943015</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1768301817321</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1768301817321</updated>
+    </task>
+    <task id="LOCAL-00154" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1768302006038</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1768302006038</updated>
+    </task>
+    <task id="LOCAL-00155" summary="carxysdf">
+      <option name="closed" value="true" />
+      <created>1768302389618</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1768302389618</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
