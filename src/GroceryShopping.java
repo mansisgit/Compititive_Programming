@@ -17,5 +17,9 @@ public class GroceryShopping {
 
         String res = Arrays.toString(items.toArray());
         System.out.println(res);
+        String obj = "o";
+        String s1 = items.get(items.indexOf(obj));
+        System.out.println(items.remove(obj));
     }
+    //list<>() and arraylist,>() onj diff
 }
