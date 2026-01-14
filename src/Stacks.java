@@ -15,7 +15,11 @@ public class Stacks {
         stack.peek();
         stack.empty();
 
+
         System.out.println(stack.search(10));
+        System.out.println(stack.isEmpty());
+        System.out.println(stack.empty());
 
     }
+
 }
