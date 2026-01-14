@@ -1,6 +1,7 @@
-import java.io.*;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
 public class Inputs {
-    public static void main(String[] arr) throws IOException {
+    public static void main(String[] arr) throws Exception {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         String s = br.readLine();
