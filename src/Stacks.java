@@ -1,5 +1,4 @@
-import java.util.PriorityQueue;
-import java.util.Stack;
+import java.util.*;
 import java.util.Collections;
 
 public class Stacks {
@@ -24,6 +23,11 @@ public class Stacks {
 
         PriorityQueue<Integer> minpq = new PriorityQueue<Integer>();//by default minpriority
         PriorityQueue<Integer> maxpq = new PriorityQueue<Integer>(Collections.reverseOrder());
+
+        HashSet<Integer> hs = new HashSet<>();
+        Set<Integer> hs2 = new HashSet<>();
+
+        HashMap<Integer,Integer> map = new HashMap<>();
 
 
     }
