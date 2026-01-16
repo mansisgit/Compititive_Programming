@@ -4,6 +4,7 @@ public class Array {
         int[] arr = {10,15,21,33,40};
         int[] nums = new int[2];
        // nums = {1,2};
+
         for(int ele: arr){
             System.out.println("Factors of "+ele+" are: ");
             for(int i=1;i<ele;i++){
@@ -14,6 +15,19 @@ public class Array {
             }
             System.out.println();
         }
+        String name = "tab";
+
+        System.out.println(name);
+
+        System.out.println(name.substring(0,2));//excluding 2
+        System.out.println("all substrigs L->R sequence");
+        for(int i=0;i<=name.length()-1;i++){
+            for(int j=i+1;j<=name.length();j++) {
+                String k = name.substring(i,j);
+                System.out.println("\"" + k + "\"");
+            }
+        }
+
     }
 }
 //1552//stocks buy and sell time 121//remove duplicates 26

@@ -28,6 +28,11 @@ public class Stacks {
         Set<Integer> hs2 = new HashSet<>();
 
         HashMap<Integer,Integer> map = new HashMap<>();
+        map.put(1,2);
+        map.put(2,3);
+        for(Map.Entry<Integer,Integer> ele : map.entrySet()){
+            System.out.println(ele.getKey()+" "+ele.getValue());
+        }
 
 
     }
