@@ -16,7 +16,7 @@ public class Array {
             System.out.println();
         }
         String name = "tab";
-
+        StringBuilder br = new StringBuilder(name);
         System.out.println(name);
 
         System.out.println(name.substring(0,2));//excluding 2
@@ -27,6 +27,10 @@ public class Array {
                 System.out.println("\"" + k + "\"");
             }
         }
+        System.out.println("runnnn");
+        name = name.replace('t','b');
+        System.out.println(name);
+        System.out.println(br.reverse().toString());
 
     }
 }
