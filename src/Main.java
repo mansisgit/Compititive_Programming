@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BankAccount {
+class BankAccount {
     int bankBalance;
     int accountNo;
     String name;
@@ -16,7 +16,9 @@ public class BankAccount {
     public void checkBalance(){
         System.out.println("Total Balance: "+bankBalance);
     }
+}
 
+ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter name:");
@@ -36,5 +38,5 @@ public class BankAccount {
             case 3 -> obj.checkBalance();
         }
     }
-
 }
+
