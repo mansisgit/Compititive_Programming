@@ -58,19 +58,35 @@ class BankAccount {
 //            case 2 -> obj.withdraw(sc.nextInt());
 //            case 3 -> obj.checkBalance();
 //        }
+
+        Dog d = new Dog();
+        d.sound();
+        Cat c = new Cat();
+        c.sound();
+        Cow cw = new Cow();
+        cw.sound();
     }
 }
 
-interface Animal{
+class Animal{
     public String sound();
 }
 class Dog extends Animal{
+    public String sound(){
+        System.out.println("Bark!!!");
+    }
 
 }
 class Cat extends Animal{
+    public String sound(){
+        System.out.println("meowww!!!");
+    }
+
 
 }
 class Cow extends Animal{
-
+public String sound(){
+    System.out.println("moo");
+}
 }
 
