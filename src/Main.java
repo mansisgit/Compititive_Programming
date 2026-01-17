@@ -5,8 +5,8 @@ class BankAccount {
     int accountNo;
     String name;
 
-    BankAccount(int accountNo,String name,int bankBalance){
-        this.accountNo=accountNo;
+    BankAccount(int account_No,String name,int bankBalance){
+        accountNo=account_No;
         this.name=name;
         this.bankBalance=bankBalance;
     }
@@ -37,7 +37,7 @@ class BankAccount {
         BankAccount obj = new BankAccount(accountNo,name,bankBalance);
 
         System.out.println("Enter the operation:");
-        System.out.print("1:deposite"+"----"+"2.withdraw"+"-----"+"3.balance");
+        System.out.println("1:deposite"+"----"+"2.withdraw"+"-----"+"3.balance");
         int choice = sc.nextInt();
         switch (choice){
             case 1 -> obj.deposit(sc.nextInt());
