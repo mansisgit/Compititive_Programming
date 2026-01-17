@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class BankAccount {
-    int bankBalance;
+    static int bankBalance;
     int accountNo;
     String name;
 
@@ -11,8 +11,16 @@ class BankAccount {
         this.bankBalance=bankBalance;
     }
 
+    public static void WorkingHours(){
+        System.out.println("opening time 10am");
+        System.out.println("closing time 4pmdd");
+        System.out.println(bankBalance);//static method static variable
+        //System.out.println(name); static method NO non static variable
+    }
+
     public void deposit(int amount){
-        bankBalance+=amount;
+        bankBalance+=amount;//non static method static variable
+
     }
 
     public void withdraw(int amount){
@@ -36,8 +44,10 @@ class BankAccount {
         //oject creation
         BankAccount a1 = new BankAccount(5421,"rahul",1000);
         BankAccount a2 = new BankAccount(5422,"riya",1500);
-        a1.deposit(1000);
+        //BankAccount.deposit(1000);
         a1.checkBalance();
+        BankAccount.WorkingHours();//static calling static
+        int n = Integer.parseInt("100");
 
 
 //        System.out.println("Enter the operation:");
@@ -49,5 +59,18 @@ class BankAccount {
 //            case 3 -> obj.checkBalance();
 //        }
     }
+}
+
+interface Animal{
+    public String sound();
+}
+class Dog extends Animal{
+
+}
+class Cat extends Animal{
+
+}
+class Cow extends Animal{
+
 }
 
