@@ -19,7 +19,7 @@ class BankAccount {
     }
 
     public void deposit(int amount){
-        bankBalance+=amount;//non static method static variable
+        bankBalance+=amount;//non-static method static variable
 
     }
 
