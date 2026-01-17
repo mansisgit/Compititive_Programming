@@ -7,6 +7,7 @@ class InsufficientFundExcepion extends Exception{
     }
 }
 public class A {
+
     public static void main(String[] args) throws InsufficientFundExcepion {
         //infficient fund exception
         Scanner sc = new Scanner(System.in);
