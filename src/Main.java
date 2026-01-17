@@ -68,24 +68,24 @@ class BankAccount {
     }
 }
 
-class Animal{
-    public String sound();
+abstract class Animal{
+    public abstract void sound();
 }
 class Dog extends Animal{
-    public String sound(){
+    public void sound(){
         System.out.println("Bark!!!");
     }
 
 }
 class Cat extends Animal{
-    public String sound(){
+    public void sound(){
         System.out.println("meowww!!!");
     }
 
 
 }
 class Cow extends Animal{
-public String sound(){
+public void sound(){
     System.out.println("moo");
 }
 }
