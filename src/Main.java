@@ -5,6 +5,12 @@ class BankAccount {
     int accountNo;
     String name;
 
+    BankAccount(int accountNo,String name,int bankBalance){
+        this.accountNo=accountNo;
+        this.name=name;
+        this.bankBalance=bankBalance;
+    }
+
     public void deposit(int amount){
         bankBalance+=amount;
     }
@@ -25,9 +31,10 @@ class BankAccount {
         String name = sc.nextLine();
         System.out.println("Enter account number: ");
         int accountNo = sc.nextInt();
+        int bankBalance =0;
 
         //oject creation
-        BankAccount obj = new BankAccount();
+        BankAccount obj = new BankAccount(accountNo,name,bankBalance);
 
         System.out.println("Enter the operation:");
         System.out.print("1:deposite"+"----"+"2.withdraw"+"-----"+"3.balance");
