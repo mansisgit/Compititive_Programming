@@ -90,3 +90,16 @@ public void sound(){
 }
 }
 
+abstract class Vehicle{
+    public abstract void noOfWheels();
+}
+class Car extends Vehicle{
+    public void noOfWheels(){
+        System.out.println("4");
+    }
+}
+class Truck extends Vehicle{
+    public void noOfWheels(){
+    System.out.println("8");
+}}
+
