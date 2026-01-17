@@ -26,24 +26,28 @@ class BankAccount {
 
  public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter name:");
-        String name = sc.nextLine();
-        System.out.println("Enter account number: ");
-        int accountNo = sc.nextInt();
-        int bankBalance =0;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter name:");
+//        String name = sc.nextLine();
+//        System.out.println("Enter account number: ");
+//        int accountNo = sc.nextInt();
+
 
         //oject creation
-        BankAccount obj = new BankAccount(accountNo,name,bankBalance);
+        BankAccount a1 = new BankAccount(5421,"rahul",1000);
+        BankAccount a2 = new BankAccount(5422,"riya",1500);
+        a1.deposit(1000);
+        a1.checkBalance();
 
-        System.out.println("Enter the operation:");
-        System.out.println("1:deposite"+"----"+"2.withdraw"+"-----"+"3.balance");
-        int choice = sc.nextInt();
-        switch (choice){
-            case 1 -> obj.deposit(sc.nextInt());
-            case 2 -> obj.withdraw(sc.nextInt());
-            case 3 -> obj.checkBalance();
-        }
+
+//        System.out.println("Enter the operation:");
+//        System.out.println("1:deposite"+"----"+"2.withdraw"+"-----"+"3.balance");
+//        int choice = sc.nextInt();
+//        switch (choice){
+//            case 1 -> obj.deposit(sc.nextInt());
+//            case 2 -> obj.withdraw(sc.nextInt());
+//            case 3 -> obj.checkBalance();
+//        }
     }
 }
 
