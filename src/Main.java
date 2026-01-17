@@ -65,6 +65,11 @@ class BankAccount {
         c.sound();
         Cow cw = new Cow();
         cw.sound();
+
+        Car cd = new Car();
+        cd.noOfWheels();
+        Truck truck = new Truck();
+        truck.noOfWheels();
     }
 }
 
